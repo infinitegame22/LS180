@@ -1,0 +1,486 @@
+0:00:03.919,0:00:06.080
+in this video
+
+0:00:04.720,0:00:08.160
+we'll take a look at the documentation
+
+0:00:06.080,0:00:09.840
+that's available on the postgres website
+
+0:00:08.160,0:00:12.160
+and see how easy it is to find out more
+
+0:00:09.840,0:00:13.759
+information about the sql syntax that it
+
+0:00:12.160,0:00:17.279
+supports its functionality
+
+0:00:13.759,0:00:19.439
+and much much more now this is the
+
+0:00:17.279,0:00:22.080
+postgres homepage here and where you'll
+
+0:00:19.439,0:00:24.000
+want to go is to documentation
+
+0:00:22.080,0:00:25.519
+in the main navigation and then once you
+
+0:00:24.000,0:00:27.519
+get to here you want to look in the
+
+0:00:25.519,0:00:29.359
+right side here and find the version
+
+0:00:27.519,0:00:31.039
+that matches the version of postgres
+
+0:00:29.359,0:00:34.320
+that you're currently using
+
+0:00:31.039,0:00:35.440
+now i have 9.4.6 installed so i'll go to
+
+0:00:34.320,0:00:36.640
+9.4
+
+0:00:35.440,0:00:39.200
+and you can choose with or without
+
+0:00:36.640,0:00:41.040
+comments either one is fine
+
+0:00:39.200,0:00:43.040
+and now once you get to this point this
+
+0:00:41.040,0:00:44.640
+is the main index of the documentation
+
+0:00:43.040,0:00:46.000
+and you can scroll down and see in the
+
+0:00:44.640,0:00:46.719
+table of contents all the different
+
+0:00:46.000,0:00:48.480
+things
+
+0:00:46.719,0:00:49.920
+that are included in here but i find
+
+0:00:48.480,0:00:50.879
+what's most helpful is just to go to the
+
+0:00:49.920,0:00:52.480
+search box and then
+
+0:00:50.879,0:00:59.039
+search for whatever it is that you're
+
+0:00:52.480,0:01:00.399
+looking for i just searched for select
+
+0:00:59.039,0:01:02.480
+because i'm curious about
+
+0:01:00.399,0:01:05.439
+exactly what does postgres support in
+
+0:01:02.480,0:01:06.880
+terms of a select sql statement
+
+0:01:05.439,0:01:10.000
+and then here it's the first result
+
+0:01:06.880,0:01:11.920
+select and now on this page i can read a
+
+0:01:10.000,0:01:13.360
+whole lot of information about
+
+0:01:11.920,0:01:15.439
+exactly how i can write a select
+
+0:01:13.360,0:01:16.720
+statement and also how that's going to
+
+0:01:15.439,0:01:19.119
+be interpreted by
+
+0:01:16.720,0:01:21.520
+the postgres database when i execute the
+
+0:01:19.119,0:01:21.520
+statement
+
+0:01:22.080,0:01:26.000
+now this first box at the top this
+
+0:01:24.240,0:01:28.159
+contains a description of the
+
+0:01:26.000,0:01:30.479
+specific syntax that you need to use in
+
+0:01:28.159,0:01:32.880
+order to successfully create a
+
+0:01:30.479,0:01:34.159
+statement of this type and there's a
+
+0:01:32.880,0:01:35.520
+little bit that you need to know about
+
+0:01:34.159,0:01:37.119
+how to read this now
+
+0:01:35.520,0:01:38.799
+it can be kind of overwhelming but it's
+
+0:01:37.119,0:01:40.880
+good to be able to look at this listing
+
+0:01:38.799,0:01:43.600
+and figure out exactly where to go next
+
+0:01:40.880,0:01:44.960
+to find out more information
+
+0:01:43.600,0:01:46.640
+so when you're looking at one of these
+
+0:01:44.960,0:01:50.399
+syntax printouts
+
+0:01:46.640,0:01:52.720
+anything that's inside square brackets
+
+0:01:50.399,0:01:54.320
+is something that's optional so if you
+
+0:01:52.720,0:01:56.079
+see square brackets around something
+
+0:01:54.320,0:01:57.280
+that means that whatever is inside it
+
+0:01:56.079,0:01:59.280
+you may or may not actually need to
+
+0:01:57.280,0:02:00.719
+include and that's why if you see this
+
+0:01:59.280,0:02:01.840
+whole first line is inside square
+
+0:02:00.719,0:02:03.759
+brackets
+
+0:02:01.840,0:02:06.159
+however select on the next line is not
+
+0:02:03.759,0:02:08.080
+so a select statement has to include
+
+0:02:06.159,0:02:09.200
+the term select that kind of makes a lot
+
+0:02:08.080,0:02:10.560
+of sense
+
+0:02:09.200,0:02:11.920
+now likewise if you're looking through
+
+0:02:10.560,0:02:12.560
+this listing and you see something that
+
+0:02:11.920,0:02:15.599
+is in
+
+0:02:12.560,0:02:16.480
+curly braces like this that means that
+
+0:02:15.599,0:02:18.239
+you have to choose
+
+0:02:16.480,0:02:19.920
+one of these things in between so you'd
+
+0:02:18.239,0:02:22.080
+have to use at least one of these
+
+0:02:19.920,0:02:23.120
+in order to use the syntax that's in
+
+0:02:22.080,0:02:25.200
+this listing
+
+0:02:23.120,0:02:26.879
+now this particular piece of the select
+
+0:02:25.200,0:02:29.440
+statement syntax is only used
+
+0:02:26.879,0:02:31.519
+if you're using either union intersect
+
+0:02:29.440,0:02:32.800
+or accept to join multiple select
+
+0:02:31.519,0:02:34.080
+statements together
+
+0:02:32.800,0:02:36.160
+and in that case you would need to use
+
+0:02:34.080,0:02:38.800
+at least union intersect or
+
+0:02:36.160,0:02:39.760
+accept in order to do that properly now
+
+0:02:38.800,0:02:40.959
+that's not something that we're going to
+
+0:02:39.760,0:02:42.800
+be doing in this course
+
+0:02:40.959,0:02:44.080
+but down here under limit that is
+
+0:02:42.800,0:02:46.000
+something that we'll look at
+
+0:02:44.080,0:02:47.599
+and so this shows that the entire limit
+
+0:02:46.000,0:02:49.040
+clause is optional because it's in
+
+0:02:47.599,0:02:50.720
+square brackets
+
+0:02:49.040,0:02:52.000
+and then inside there you you have to
+
+0:02:50.720,0:02:52.640
+use the term limit if you're going to
+
+0:02:52.000,0:02:54.800
+use this
+
+0:02:52.640,0:02:55.680
+at all and then you either have to have
+
+0:02:54.800,0:02:59.440
+a count
+
+0:02:55.680,0:03:00.879
+or the term all to complete that clause
+
+0:02:59.440,0:03:02.879
+and most commonly what you'll say is
+
+0:03:00.879,0:03:04.080
+limit and then a number limit 10 limit
+
+0:03:02.879,0:03:05.680
+20.
+
+0:03:04.080,0:03:07.120
+sometimes even limit 1 if you just want
+
+0:03:05.680,0:03:08.720
+to get one result back
+
+0:03:07.120,0:03:10.640
+now you'll also notice in the syntax
+
+0:03:08.720,0:03:12.319
+printout there are some terms that are
+
+0:03:10.640,0:03:13.680
+printed in a different way they're bold
+
+0:03:12.319,0:03:16.080
+and italicized
+
+0:03:13.680,0:03:16.879
+such as with query expression output
+
+0:03:16.080,0:03:18.640
+name
+
+0:03:16.879,0:03:19.920
+and now if you see something like that
+
+0:03:18.640,0:03:21.519
+what that means is that there's going to
+
+0:03:19.920,0:03:25.200
+be more information about that
+
+0:03:21.519,0:03:28.560
+term somewhere in the page later so
+
+0:03:25.200,0:03:30.720
+in one example would be the from item
+
+0:03:28.560,0:03:32.080
+right here and you'll see that there's
+
+0:03:30.720,0:03:32.879
+actually a portion of the page here
+
+0:03:32.080,0:03:34.799
+where it says
+
+0:03:32.879,0:03:35.920
+where from item can be one of and so
+
+0:03:34.799,0:03:37.120
+this tells you that
+
+0:03:35.920,0:03:39.280
+where you see from item you would
+
+0:03:37.120,0:03:41.760
+actually replace that with one of these
+
+0:03:39.280,0:03:41.760
+options
+
+0:03:42.480,0:03:46.000
+some of these terms for example
+
+0:03:43.840,0:03:48.560
+expression or condition those
+
+0:03:46.000,0:03:49.920
+are not listed in this listing but if
+
+0:03:48.560,0:03:50.959
+you look later in the page
+
+0:03:49.920,0:03:52.799
+underneath whatever part of the
+
+0:03:50.959,0:03:54.560
+statement they show up under you can
+
+0:03:52.799,0:03:56.239
+usually find out more information
+
+0:03:54.560,0:03:59.280
+so for example let's try to find out
+
+0:03:56.239,0:04:02.560
+more about condition
+
+0:03:59.280,0:04:02.560
+and so i'll scroll down the page
+
+0:04:05.599,0:04:09.519
+and here under the where clause which is
+
+0:04:07.680,0:04:11.200
+where it appeared in the syntax
+
+0:04:09.519,0:04:15.840
+you'll see information about the
+
+0:04:11.200,0:04:15.840
+condition and what that actually means
+
+0:04:16.959,0:04:21.440
+so the postgres documentation is a good
+
+0:04:18.959,0:04:23.120
+resource to get used to using
+
+0:04:21.440,0:04:25.280
+there is a lot of information in here
+
+0:04:23.120,0:04:26.479
+and because postgres is very powerful
+
+0:04:25.280,0:04:27.919
+and has a lot of features
+
+0:04:26.479,0:04:29.520
+it can be overwhelming when you're
+
+0:04:27.919,0:04:30.479
+looking at something like this and just
+
+0:04:29.520,0:04:32.080
+trying to figure out how to write a
+
+0:04:30.479,0:04:33.360
+select statement
+
+0:04:32.080,0:04:34.960
+but for the most part you can kind of
+
+0:04:33.360,0:04:36.160
+pick through it find the things that
+
+0:04:34.960,0:04:38.000
+you're looking for
+
+0:04:36.160,0:04:39.440
+and it can be a big help when you're
+
+0:04:38.000,0:04:42.080
+trying to figure out exactly how to make
+
+0:04:39.440,0:04:43.440
+something work
+
+0:04:42.080,0:04:45.040
+now of course there are plenty of other
+
+0:04:43.440,0:04:45.520
+resources on the internet that you can
+
+0:04:45.040,0:04:47.440
+use
+
+0:04:45.520,0:04:49.120
+such as stock overflow or your favorite
+
+0:04:47.440,0:04:50.639
+search engine and these things can
+
+0:04:49.120,0:04:51.840
+always help you find solutions to
+
+0:04:50.639,0:04:52.880
+problems that you're running into in
+
+0:04:51.840,0:04:54.560
+your projects
+
+0:04:52.880,0:04:56.000
+but it's always good to become
+
+0:04:54.560,0:04:57.919
+comfortable with the documentation
+
+0:04:56.000,0:04:59.759
+for a software package that you're using
+
+0:04:57.919,0:05:00.560
+and the postgres documentation is
+
+0:04:59.759,0:05:02.479
+excellent
+
+0:05:00.560,0:05:11.840
+and i highly recommend checking it out
+
+0:05:02.479,0:05:11.840
+as you're developing your projects
+
