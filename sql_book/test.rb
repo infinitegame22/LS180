@@ -21,7 +21,7 @@ module Evergreen
   # p Module.nesting
   class Spruce < Tree
     def changes_color?
-      p Module.nesting
+      p Module.nesting # [Evergreen::Spruce, Evergreen]
       DECIDUOUS
     end
   end
@@ -29,7 +29,7 @@ end
 
 blue_spruce = Evergreen::Spruce.new
 # p blue_spruce
-# p blue_spruce.class.ancestors
+# p blue_spruce.class.ancestors # [Evergreen::Spruce, Tree, Greenable, Object, Kernel, BasicObject]
 # What does each line below output and why?
 
 p blue_spruce.changes_color? #false
