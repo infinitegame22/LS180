@@ -1,0 +1,1 @@
+ALTER TABLE planets ADD COLUMN semi_major_axis TYPE numeric NOT NULL;
