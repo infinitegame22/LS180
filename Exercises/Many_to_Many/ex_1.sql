@@ -31,8 +31,8 @@ VALUES ('Unix Hosting', 5.95),
 CREATE TABLE customers_services (
   id serial PRIMARY KEY,
   services_id integer REFERENCES services (id) NOT NULL,
-  customer_id integer REFERENCES customers (id)  NOT NULL
-      ON DELETE CASCADE
+  customer_id integer REFERENCES customers (id) ON DELETE CASCADE NOT NULL,
+  UNIQUE(services_id, customer_id)
 );
 --https://www.postgresql.org/docs/16/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS:~:text=To%20define%20a%20unique%20constraint%20for%20a%20group%20of%20columns%2C%20write%20it%20as%20a%20table%20constraint%20with%20the%20column%20names%20separated%20by%20commas%3A
 
